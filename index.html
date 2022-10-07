@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zyro HOtel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0px;
+        }
+
+        body {
+            background-image: url(./img/hotel.jpg);
+            background-size: 1763.2px 757px;
+            background-repeat: no-repeat;
+            height: 1140px;
+            background-position: top 0px right -244px;
+            background-color: rgb(50, 32, 32);
+            overflow: hidden;
+        }
+
+        .header {
+            height: 90px;
+            border-bottom: 1px solid white;
+        }
+
+        .left {
+            display: inline-block;
+            margin-top: 11px;
+            margin-left: 20px;
+            /* border: 1px solid red; */
+        }
+
+        .left img {
+            height: 71px;
+            width: 106px;
+            filter: invert(100%);
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 1px solid red; */
+            float: right;
+            margin-right: 15px;
+            margin-top: 6px;
+            padding: 5px;
+            font-size: 23px;
+        }
+
+        .right nav li {
+            display: inline-block;
+
+            padding: 22px;
+        }
+
+        .right nav li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .right nav li a.active,
+        .right nav li a:hover {
+            color: black;
+        }
+
+        .mainContainer {
+            position: relative;
+            border: 2px solid white;
+            border-radius: 5px;
+            height: 520px;
+            width: 775px;
+            top: 66px;
+            left: 56px;
+            background-color: rgb(50, 32, 32);
+        }
+
+        .mainContainer .subContainer1 {
+            font-family: 'Merriweather', serif;
+            font-size: 85px;
+
+        }
+
+        .mainContainer .subContainer1 .one {
+            display: inline-block;
+            margin-left: 95px;
+            margin-top: 30px;
+            color: white;
+
+        }
+
+        .mainContainer .subContainer1 .two {
+            display: inline-block;
+            color: yellow;
+            margin-left: 3px;
+
+        }
+
+        .mainContainer .subContainer1 .three {
+            display: inline-block;
+            color: rgb(246, 59, 42);
+            font-size: 80px;
+            margin-left: 52px;
+            margin-top: 6px;
+        }
+
+        .mainContainer .subContainer2 p {
+            font-size: 20px;
+            color: white;
+            margin-top: 91px;
+            margin-left: 57px;
+        }
+
+        .mainContainer .btn button {
+            display: block;
+            margin: 43px auto;
+            font-size: 20px;
+            background-color: yellow;
+            color: black;
+            width: 227px;
+            height: 37px;
+            font-family: 'Merriweather', serif;
+            border-radius: 10px;
+        }
+
+        .mainContainer .btn button:hover {
+            background-color: rgb(176, 176, 37);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left"><img src="./img/zyroLogo.png"></div>
+        <div class="right">
+            <nav>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Book Now</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mainContainer">
+        <div class="subContainer1">
+            <p class="one">We Fight</p>
+            <p class="two">For</p>
+            <p class="three">Your Experience</p>
+        </div>
+        <div class="subContainer2">
+            <p>* For Booking and other Queries Call Us Now</p>
+        </div>
+        <div class="btn">
+            <button>Call Us Now</button>
+        </div>
+    </div>
+</body>
+
+</html>
